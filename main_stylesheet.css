@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+
+/* MAIN MENU */
+#navigationBar {
+    min-width: 670px;
+    height: 90px;
+    background: green;
+    font-family: Serif;  
+}
+
+#logo {
+    float: left;
+    margin: 5px 5px 5px 15px;
+    width: 80px;
+    
+}
+
+#navigationMenu {
+    float: left;
+    display: table;
+    width: 500px;
+    margin-top: 8px;
+    padding: 10px;
+    border-spacing: 10px 0;\
+    
+}
+
+#navigationMenu p {  /* menu items */
+    display: table-cell;
+    width: 90px;
+    padding: 10px;
+    background: #b3b3b3;
+    border: solid 3px #e6c563;
+    border-radius: 10px;
+    text-align: center;
+     
+}
+
+
+/* MAIN CONTENT */
+#container {
+    width: 90%;
+    min-width:768px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+#mainContent {
+    float: left;
+    width: 66%;  
+    margin: 15px 15px;
+    background: #f2f2f2f2; 
+}
+
+
+
+/* ARTICLE CONTENT */
+.article_box {
+    margin: 10px;
+    padding: 10px;
+    background: white;   
+}
+
+.article_box p:first-of-type::first-letter {
+    font-family: Russo One;
+    font-size: 25px;
+}
+
+.article_image {
+    float: right;
+    margin: 10px;
+}
+
+.article_heading {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: green;
+}
+
+
+
+.article_text {
+    margin: 10px 0;
+    text-indent: 25px;   
+}
+
+
+
+/* SIDEBAR CONTENT */
+#sidebar {
+    float: left;
+    width: 23%;
+    margin: 15px 15px;
+    padding: 10px;
+    background: #f2f2f2; 
+}
+
+#sidebar ul {/* sidebar list */
+    margin: 20px 5px;
+    list-style-position: inside;
+    
+}
+
+#sidebar li {/* sidebar list */
+ padding: 10px 0;   
+}
+
+#sidebar h3 {
+    font-size: 20px;   
+    color: #e6c563;
+}
+
+
+
+
+/* FOOTER CONTENT */
+#footer {
+    clear: both;
+    float:left;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+
+.footer_content {
+     margin: 20px 0 0 20px;
+}
+
+
+#footer h3 {
+    color: white;
+    font-size: 17px;
+}
+
+
+#footer a {
+    display: block;
+    margin: 15px 0 15px;
+    color:  #b3b3b3;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+#footer a:hover {
+    color: white;
+}
+
+
+#footer a:active {
+    color: green;
+}
+
+/* footer input fields */
+#footer label[for="subscribe"] {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#footer input[id="subscribe"] {
+    width: 100%;
+    margin: 15px 15px 0 0;
+    padding:7px;
+    color:  #b3b3b3;
+    font-size: 13px;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+#footer input::placeholder {
+    
+    color: red;
+
+}
+
+/* COLUMNS */
+.col_3 {
+    width: 32%;
+    float: left;
+
+}
