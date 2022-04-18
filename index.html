@@ -1,80 +1,72 @@
 <!DOCTYPE html>
 
 <head>
-    <title>My first website</title>
-    <meta charset="utf-8">
-    <!-- Merriweather font -->
-    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Merriweather&family=Noto+Sans+JP:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <!-- Russo One -->
-    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Merriweather&family=Noto+Sans+JP:wght@300&family=Roboto:wght@300&family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main_stylesheet.css">
+  <title>My first website</title>
+  <meta charset="utf-8">
+  <!-- Merriweather font -->
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Merriweather&family=Noto+Sans+JP:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- Russo One -->
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Merriweather&family=Noto+Sans+JP:wght@300&family=Roboto:wght@300&family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main_stylesheet.css">
 </head>
 
 <body>
-        <header id="navigationBar">
-            <img id="logo" src="images/dragon_transparent.png">
+  <header id="navigationBar">
+    <img id="logo" src="images/dragon_transparent.png">
+    <nav id="navigationMenu">
+      <p>Main</p>
+      <p>Secondary</p>
+      <p>Third</p>
+      <p>Dragon</p>
+    </nav>
+  </header><!-- navigationBar -->
 
-            <nav id="navigationMenu">
-                    <p>Main</p>
-                    <p>Secondary</p>
-                    <p>Third</p>
-                    <p>Dragon</p>
-            </nav>
-        </header><!-- navigationBar -->
+  <div id="container">
+    <section id="mainContent">
+      <article class="article_box">
+        <h1 class="article_heading">About page</h1>
+        <img class="article_image" src="images/tile_01.jpg">
+        <p class="article_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?<p>
+        <p class="article_text">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?<p>
+      </article>
+    </section>
 
-     <div id="container">
-         <section id="mainContent">
-            <article class="article_box">
-                <h1 class="article_heading">About page</h1>
-                <img class="article_image" src="images/tile_01.jpg">
-                <p class="article_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?<p>
-                <p class="article_text">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?<p>
-            </article>
-        </section>
-
-        <script type="text/javascript">
-          function $ (X) {return document.getElementById(X)};
-          alert( $("mainContent"));
-        </script>
-
-
-        <section id="sidebar">
-            <side>
-                <h3>Related content</h3>
-                <ul>
-                    <li>enim ipsam voluptatem</li>
-                    <li>wquia voluptas aspernatur</li>
-                    <li>consequuntur magni dolores</li>
-                    <li>sed quia non</li>
-
-                </ul>
-            </side>
-        </section>
-    </div><!-- container -->
+    <section id="sidebar">
+      <side>
+        <h3>Related content</h3>
+        <ul>
+          <li>enim ipsam voluptatem</li>
+          <li>wquia voluptas aspernatur</li>
+          <li>consequuntur magni dolores</li>
+          <li>sed quia non</li>
+        </ul>
+      </side>
+    </section>
+  </div><!-- container -->
 
 
-    <footer id="footer">
-        <div class="footer_content">
-             <div class="col_3">
-                <h3>Test section</h3>
-                <a href="#">test</a>
-                <a href="#">mega test</a>
-                <a href="#">super test</a>
-             </div>
+  <footer id="footer">
+  <div class="footer_content">
+    <div class="col_3">
+      <h3>Test section</h3>
+      <a href="#">test</a>
+      <a href="#">mega test</a>
+      <a href="#">super test</a>
+    </div>
 
-             <div class="col_3">
-                 <h3>Info</h3>
-                 <a href="#">contact</a>
-                 <a href="#">more info</a>
-                 <a href="#">bank</a>
-             </div>
+    <div class="col_3">
+      <h3>Info</h3>
+      <a href="#">contact</a>
+      <a href="#">more info</a>
+      <a href="#">bank</a>
+    </div>
 
-             <div class="col_3">
-                <form>
-                    <label for="subscribe">Subscribe</label><br>
-                    <input   type="text" id="subscribe" placeholder="Enter your best email..." name="subscribe">
-                </form>
-            </div>
-        </div>
-    </footer>
+    <div class="col_3">
+      <form>
+        <label for="subscribe">Subscribe</label><br>
+        <input   type="text" id="subscribe" placeholder="Enter your best email..." name="subscribe">
+      </form>
+    </div>
+  </div>
+  </footer>
 </body>
